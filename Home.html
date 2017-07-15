@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>Harry Potter - Home</title>
+	<style type="text/css">
+		body{overflow: hidden;}
+		ul{
+			list-style-type: none;
+			padding: 0px;
+			width: 13%;
+			height: 640px;
+			background-color: #555;
+			position: fixed; /* Make it stick, even on scroll */
+    		overflow: auto;  /*Enable scrolling if the sidenav has too much content */
+    		/*border-radius: 10px;*/
+		}
+		li a{
+			display: block;
+			padding:8px 0px 8px 16px;
+			text-decoration: none;
+			color:#000;
+			font-size: 19px;
+			font-family: cursive;
+			color:white;
+		}
+		.home{
+			background-color: #f5f5f5;
+			font-family: sans-serif;
+			/*padding: auto;
+			/*border-radius: 10px;*/
+		}
+		li a:hover{
+			background-color: #f5f5f5;
+			color:black;
+			transition: 0.9s;
+		}
+		hr{
+			width: 25%;
+		}
+		.hr{
+			width: 90%;
+		}
+		.btn{
+			text-decoration: none;
+			color:black;
+			border: 1px solid black;
+			padding: 10px;
+			border-radius: 14px;
+
+		}
+		.btn:hover{
+			background-color: #555;
+			color:white;
+			border-radius: 1px;
+			box-shadow: 10px 10px 10px #DDD,
+						-10px -10px 10px #DDD;
+			transition: 0.9s;
+		}
+		.hello:hover{
+			color: #666;
+		}
+		h3{
+			padding-top: 245px;
+			padding-left: 35px;
+			font-family: cursive;
+			color: #FF7F50;
+			cursor: default;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<br>
+		<li><img src="logo.jpg" width="178px"><li>
+		<br>
+		<li><a href="#">Home</a></li>
+		<hr class="hr" />
+		<li><a href="the parts.html">The Parts</a></li>
+		<hr class="hr" />
+		<li><a href="Download.html">Downloads</a></li>
+		<hr class="hr" />
+		<li><a href="contact.html">Contact</a></li>
+		<h3>Hossam Ali</h3>
+	</ul>
+	<div style="margin-left:13%;padding:1px 16px;height:638px;text-align:left;" class="home">
+		<h1 style="text-font:20px;text-align:center;padding-top:20%" class="hello">Welcome To Harry Potter Site</h1>
+		<hr />
+		<br>
+		<center>
+			<a href="the parts.html" class="btn">The Parts</a>
+			<a href="Download.html" class="btn">Downloads</a>
+			<a href="contact.html" class="btn">Contact</a><br>
+		</center>
+	</div>
+</body>
+</html>
